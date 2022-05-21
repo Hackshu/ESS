@@ -22,9 +22,7 @@
 
 ---
 
-[Marco Generator](https://github.com/cedowens/ESS_MacroGenerator) by Cedric Owens
 
-### This project is no longer active
 
 ## Features
 - Emulate a terminal instance
