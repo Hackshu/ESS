@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """Creates loaders using the factory pattern."""
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
+__author__ = "Team Blue"
 
 import imp
 from os import path, listdir

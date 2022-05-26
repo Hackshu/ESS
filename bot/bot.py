@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """Minimal bot which loads modules as they are needed from the server."""
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
-__version__ = "4.1.1"
+__author__ = "Team Blue"
+__version__ = "0.1.0"
 
 import getpass
 import json

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
+__author__ = "Team Blue"
 
 import random
 import string

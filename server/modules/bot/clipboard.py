@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
+__author__ = "Team Blue"
 
 from AppKit import NSPasteboard, NSStringPboardType
 from time import time, sleep

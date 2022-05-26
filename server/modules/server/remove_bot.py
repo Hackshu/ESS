@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
+__author__ = "Team Blue"
 
 from server.modules.helper import *
 
@@ -8,8 +7,8 @@ from server.modules.helper import *
 class Module(ModuleABC):
     def get_info(self):
         return {
-            "Author:": ["Marten4n6"],
-            "Description": "Remove EvilOSX from the bot.",
+            "Author:": ["Team Blue"],
+            "Description": "Remove ESS from the bot.",
             "References": [],
             "Stoppable": False
         }

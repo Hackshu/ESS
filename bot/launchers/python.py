@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
+__author__ = "Team Blue"
+
 
 from bot.launchers.helper import LauncherABC, random_string
 from textwrap import dedent

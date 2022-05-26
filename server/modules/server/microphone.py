@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
+__author__ = "Team Blue"
 
 from server.modules.helper import *
 
@@ -8,7 +7,7 @@ from server.modules.helper import *
 class Module(ModuleABC):
     def get_info(self):
         return {
-            "Author:": ["Marten4n6"],
+            "Author:": ["Team Blue"],
             "Description": "Record the microphone.",
             "References": [
                 "https://github.com/EmpireProject/Empire/blob/master/lib/modules/python/collection/osx/osx_mic_record.py",

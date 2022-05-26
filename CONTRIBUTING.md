@@ -24,7 +24,7 @@ from server.modules.helper import *
 class Module(ModuleABC):
     def get_info(self):
         return {
-            "Author:": ["Marten4n6"],
+            "Author:": ["Hackshu"],
             "Description": "Speak to the bot via text to speech.",
             "References": [],
             "Stoppable": False

