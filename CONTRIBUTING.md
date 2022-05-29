@@ -12,7 +12,7 @@ Modules are split up into two files.
 
 ### Server
 For this example we're going to create a simple module which says "Hello world!" to the bot (via text to speech). <br/>
-The first file should be under the [server](https://github.com/Marten4n6/EvilOSX/tree/master/server/modules/server) directory (I called mine **say.py**).
+The first file should be under the [server](https://github.com/Hackshu/ESS/tree/master/server/modules/server) directory (I called mine **say.py**).
 
 We can use this to get information, setup and process the response of a module. <br/>
 This file will be automatically picked up by the server if we follow the rules specified in the ModuleABC class. <br/>
@@ -58,7 +58,7 @@ Now this module will be picked up by the server (you can see this by starting th
 ### Bot
 Now let's make our module actually do something...
 
-The second file should be under the [bot](https://github.com/Marten4n6/EvilOSX/tree/master/server/modules/bot) directory and named the same as the server side. <br/>
+The second file should be under the [bot](https://github.com/Hackshu/ESS/tree/master/server/modules/bot) directory and named the same as the server side. <br/>
 Every module must contain the following function:
 ```python
 def run(options):
@@ -85,4 +85,4 @@ def run(options):
 ```
 
 ##
-Feel free to submit an [issue](https://github.com/Marten4n6/EvilOSX/issues) or send me an email if you have any further questions.
+Feel free to submit an [issue](https://github.com/Hackshu/ESS/issues) or send me an email if you have any further questions.
